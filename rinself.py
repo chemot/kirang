@@ -1778,7 +1778,7 @@ def ririnBot(op):
                             for mention in mentionees:
                                 if ririnMid in mention["M"]:
                                     if wait["autoRespon"] == True:
-                                    	ririn.sendChatChecked(msg._from,msg.id)
+                                    	image = "http://dl.profile.line-cdn.net{}".format(contact.picturePath))
                                     	contact = ririn.getContact(msg._from)
                                     	ririn.sendImageWithURL(msg._from, "http://dl.profile.line-cdn.net{}".format(contact.picturePath))
                                     	sendMention(sender, "ᴏɪ ᴍʙʟᴏ @!      ,\nɴɢᴀᴘᴀɪɴ ᴛᴀɢ ᴛᴀɢ ɢᴡ", [sender])
